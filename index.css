@@ -1,11 +1,19 @@
 h1 {
   font-family: monospace; /* set font to monospace */
+  color: white;
 }
 
 p {
   font-family: monospace;
+  color: white;
 }
 
 a {
   font-family: monospace:
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: white;
 }
