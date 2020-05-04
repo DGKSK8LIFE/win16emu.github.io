@@ -4,7 +4,8 @@
   "description": "Win16emu's website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
     "url": "https://github.com/win16emu/win16emu.github.io/issues"
   },
   "homepage": "https://github.com/win16emu/win16emu.github.io#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
 }
