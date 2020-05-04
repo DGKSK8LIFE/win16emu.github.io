@@ -2,13 +2,13 @@ const express = require("express")
 const app = express()
 
 app.get('/', (req, res) => {
-  res.sendFile("public/index.html", {
+  res.sendFile("index.html", {
     root: __dirname
   });
 });
 
 app.get('/public/index.css', (req, res) => {
-  res.sendFile("public/index.css", {
+  res.sendFile("index.css", {
     root: __dirname
   });
 });
