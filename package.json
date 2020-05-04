@@ -1,0 +1,22 @@
+{
+  "name": "win16emu.github.io",
+  "version": "1.0.0",
+  "description": "Win16emu's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/win16emu/win16emu.github.io.git"
+  },
+  "author": "AVCADO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/win16emu/win16emu.github.io/issues"
+  },
+  "homepage": "https://github.com/win16emu/win16emu.github.io#readme",
+  "dependencies": {
+    "create-react-app": "^1.5.2"
+  }
+}
