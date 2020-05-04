@@ -7,6 +7,12 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/public/index.css', (req, res) => {
+  res.sendFile("public/index.css", {
+    root: __dirname
+  });
+});
+
 app.listen(9000, () => {
   console.log("Listening on port 9000.");
 });
